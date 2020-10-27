@@ -7,7 +7,7 @@
     <input type="string" name="title"  value ="{{ old('title') }}";><br>
 
     <p>
-    <b>本文</b>
+        <b>本文</b>
     </p>
 
 
