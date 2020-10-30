@@ -13,7 +13,7 @@
     </p>
     <br>
     
-    <textarea name="body"  value ="{{ old('body') }}";></textarea>
+    <textarea name="body" ;></textarea>
     <br>
     <input type="submit" value="投稿" >
     {{-- value ="{{old('')}}" --}}
