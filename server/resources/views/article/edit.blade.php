@@ -11,7 +11,7 @@
     </p>
 
 
-    <textarea type="text" name="body" ;></textarea>
+    <textarea type="text" name="body"></textarea>
     <br>
 
     <input type="submit" value="投稿">

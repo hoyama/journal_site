@@ -2,8 +2,9 @@
 
 <ul>
     @foreach ( $articles as $article )
-    <p><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></p>
+    <li>
+        <a href="/articles/{{ $article->id }}">{{ $article->title }}</a>
+    </li>
     @endforeach
-
-<a href="/articles/{{ $article->id }}/"><button>新規論文投稿</button></a>
 </ul>
+<a href="/articles/{{ $article->id }}/"><button>新規論文投稿</button></a>
